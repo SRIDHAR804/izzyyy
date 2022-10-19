@@ -1,15 +1,15 @@
 {
-      "name": "NekoRobot",
-      "description": "An Anime themed Telegram group management bot.",
-      "logo": "https://telegra.ph/file/18e6b01aa06b93c13d1ab.png",
+      "name": "one love music robot",
+      "description": "An one love music robot Telegram group management bot.",
+      "logo": "https://telegra.ph/file/17e01ad75f6ce85e52c4e.jpg",
       "keywords": [
          "telegram",
-         "anime",
+         "One love music robot",
          "group",
          "manager",
-         "NekoRobot"
+         "Team T J"
       ],   
-   "repository": "https://github.com/Awesome-Prince/NekoRobot-3",
+   "repository": "https://github.com/kennedy-ex/EmikoRobot",
    "addons": [
       {
          "options": {
@@ -47,12 +47,12 @@
       "BOT_NAME": {
          "description": "Your Bot Name.",
          "required": true,
-         "value": "Neko X"
+         "value": "one love music "
       },
       "BOT_USERNAME": {
          "description": "Your Bot UserName Without @.",
          "required": true,
-         "value": "NekoCuteBot"
+         "value": "One_love_music_entrybot"
       },
       "ERROR_LOGS": {
          "description": "Error Logs (Channel Ya Group Choice Is Yours)",
@@ -62,7 +62,7 @@
        "HELP_IMG": {
          "description": "Group Help Img Link.",
          "required": true,
-         "value": "https://telegra.ph/file/ab36976c685575c4e1a5f.png"
+         "value": "https://telegra.ph/file/1942058fc590494969b46.jpg"
       },
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
@@ -71,12 +71,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "Its_IZ_PRINCE_xD"
+         "value": "king_of_izzy"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
          "required": true,
-         "value": "ProgrammerSupport"
+         "value": "onelovemusicrobort"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -86,12 +86,12 @@
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-123456798"
+         "value": "-1001840160212"
       },      
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
          "required": true,
-         "value": "5629305049"
+         "value": "5729339332"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -158,7 +158,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it",
          "required": false,
-         "value": "t.me/Its_IZ_PRINCE_xD"
+         "value": "t.me/devil_of_izzy"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
