@@ -33,10 +33,10 @@ PHOTO = "https://te.legra.ph/file/7a18675abd9b75230735d.mp4"
 
 @register(pattern=("Good morning"))
 async def awake(event):
-    NEKO = f" Welcome this beautiful morning with a smile on your face. I hope youll have a great day today. Wishing you a very good morning! {event.sender.first_name}"
+    NEKO = f"இந்த அழகான காலையை உங்கள் முகத்தில் புன்னகையுடன் வரவேற்கிறோம். இன்று உங்களுக்கு சிறப்பான நாளாக இருக்கும் என்று நம்புகிறேன். உங்களுக்கு ஒரு நல்ல காலை வாழ்த்துக்கள்! {event.sender.first_name}"
     BUTTON = [
         [
-            Button.url("Meet Me Here🎀", "https://telegram.dog/Besties_XD"),
+            Button.url("🎀", "https://t.e/tamil_junctions"),
         ]
     ]
     await tbot.send_file(event.chat_id, PHOTO, caption=NEKO, buttons=BUTTON)
